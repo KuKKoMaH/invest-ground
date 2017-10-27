@@ -1,0 +1,5 @@
+.bullets: .w
+  each text, i in ['Деньги <br/>за 1 день', 'С любой кредитной <br/>историей', 'Без дохода <br/>и поручителей', 'Выписываться <br/>не надо', 'от 10% <br/>годовых']
+    .bullets__item
+      .bullets__image: img(src='img/bullet-' + (i+1) + '.svg')
+      .bullets__text !{text}

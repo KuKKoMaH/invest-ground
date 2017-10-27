@@ -1,0 +1,59 @@
+.types
+  margin-top: -116px
+  padding-top: 116px
+  padding-bottom: 79px
+  background: #293542
+  color: #ffffff
+
+  @media (max-width: $breakpoint-sm - 1)
+    padding-left: 10px
+    padding-right: 10px
+
+  &__title
+    text-align: center
+    font-size: 29px
+    font-weight: 500
+    text-transform: uppercase
+    margin-bottom: 60px
+
+    &:after
+      content: ''
+      display: block
+      width: 100px
+      height: 5px
+      background: #E94C36
+      margin: 13px auto 0
+
+  &__item
+    border-radius: 3px
+    background: #000 50% 50% no-repeat
+    background-size: cover
+    flex: 1
+    padding: 28px 34px
+    box-shadow: 0 7px 17px 0 rgba(#000000, .38)
+
+    &--1
+      background-image: url(../../img/type-1.jpg)
+      margin-right: 30px
+
+      @media (max-width: $breakpoint-sm - 1)
+        margin-right: 0
+        margin-bottom: 30px
+
+    &--2
+      background-image: url(../../img/type-2.jpg)
+
+    &-title
+      font-weight: bold
+      font-size: 20px
+      margin-bottom: 18px
+      max-width: 270px
+
+    &-text
+      max-width: 270px
+
+      p
+        margin: 0 0 13px
+
+      ul
+        margin: 0

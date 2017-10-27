@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>sprite-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="31.5" cy="31.5" r="24.5"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sprite-arrow">
+            <g id="Oval-2">
+                <use fill-opacity="0.362969882" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <circle stroke-opacity="0.397022192" stroke="#979797" stroke-width="7" cx="31.5" cy="31.5" r="28"></circle>
+            </g>
+            <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="28.824881 27.6020093 31.4616667 25 43 36.3979907 40.3659524 39 31.4616667 30.2040185 22.6340476 38.9242658 20 36.3195518"></polygon>
+        </g>
+    </g>
+</svg>

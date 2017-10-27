@@ -1,0 +1,43 @@
+.partners
+  background: #293542
+  padding: 74px 0 0
+  color: #ffffff
+
+  @media (max-width: $breakpoint-sm - 1)
+    padding: 20px 0
+
+  &__title
+    font-size: 29px
+    line-height: 1.3
+    font-weight: 500
+    margin-bottom: 77px
+
+    @media (max-width: $breakpoint-sm - 1)
+      text-align: center
+      margin-bottom: 30px
+
+    &:after
+      content: ''
+      display: block
+      width: 100px
+      height: 5px
+      background: #E94C36
+      margin: 13px 0 0
+
+      @media (max-width: $breakpoint-sm - 1)
+        margin-left: auto
+        margin-right: auto
+
+  &__items
+    flex-wrap: wrap
+    align-items: center
+
+  &__item
+    width: 25%
+    text-align: center
+    margin-bottom: 70px
+    padding: 0 10px
+
+    @media (max-width: $breakpoint-sm - 1)
+      margin-bottom: 8px
+      width: 100%

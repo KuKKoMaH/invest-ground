@@ -1,0 +1,37 @@
+.bullets
+  text-align: center
+  margin-bottom: 73px
+
+  @media (max-width: $breakpoint-sm - 1)
+    margin-bottom: 30px
+
+  &__item
+    flex: 1
+
+    @media (max-width: $breakpoint-sm - 1)
+      margin-bottom: 18px
+
+  &__image
+    width: 119px
+    height: 119px
+    background: #e94c36
+    border-radius: 50%
+    text-align: center
+    line-height: 119px
+    font-size: 0
+    margin: 0 auto 26px
+
+    @media (max-width: $breakpoint-sm - 1)
+      margin-bottom: 8px
+
+    img
+      display: inline-block
+      vertical-align: middle
+
+  &__text
+    font-size: 20px
+    line-height: 1.45
+
+    @media (max-width: $breakpoint-sm - 1)
+      br
+        display: none

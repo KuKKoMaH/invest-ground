@@ -1,0 +1,43 @@
+.menu
+  margin-bottom: 25px
+  .w
+    align-items: center
+    margin-top: 14px
+
+  &__logo
+    background: url(../../img/sprite-logo.svg)
+
+  &__loc
+    margin-left: 70px
+
+    @media (max-width: $breakpoint-sm - 1)
+      margin: 0
+
+    &:before
+      content: ''
+      display: inline-block
+      vertical-align: middle
+      background: url(../../img/sprite-mark.svg)
+      margin-right: 12px
+      font-size: 18px
+
+  &__contacts
+    flex: 1
+    text-align: right
+
+    @media (max-width: $breakpoint-sm - 1)
+      text-align: center
+
+  &__phone
+    font-weight: bold
+    font-size: 24px
+    margin-bottom: 6px
+
+  &__cta
+    color: #e94c36
+    font-weight: 500
+    font-size: 13px
+    text-transform: uppercase
+
+  &__works
+    font-size: 14px

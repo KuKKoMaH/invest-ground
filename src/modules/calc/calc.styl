@@ -1,0 +1,110 @@
+.calc
+  background: linear-gradient(to right, #fff 0%, #fff 50%, #C4CED5 50%, #C4CED5 100%);
+  padding: 48px 0 70px
+
+  &__block
+    flex: 1
+    padding: 0 90px
+
+    &--left
+      padding-left: 30px
+
+    &--right
+      padding-right: 30px
+
+  &__title
+    font-size: 29px
+    line-height: 1.3
+    font-weight: 500
+    margin-bottom: 50px
+
+    &:after
+      content: ''
+      display: block
+      width: 100px
+      height: 5px
+      background: #E94C36
+      margin: 13px 0 0
+
+      @media (max-width: $breakpoint-sm - 1)
+        margin-left: auto
+        margin-right: auto
+
+  &__slider
+    margin-bottom: 70px
+
+    &-value
+      font-size: 24px
+      font-weight: 300
+      margin-bottom: 30px
+
+      span
+        color: #e94c36
+        font-weight: 400
+
+  &__subsumm
+    font-size: 24px
+    font-weight: 300
+    margin-bottom: 22px
+
+  &__summ
+    display: inline-block
+    margin-bottom: 30px
+
+  &__number
+    font-size: 110px
+    font-weight: 500
+    line-height: 1
+
+  &__permonth
+    text-align: right
+    font-size: 24px
+    font-weight: 500
+    padding-right: 10px
+
+  &__note
+    font-size: 17px
+    font-weight: 300
+    margin-bottom: 45px
+
+  &__button
+    text-align: center
+
+  .irs
+    margin-bottom: 110px
+
+  .irs-grid-pol
+    display: none
+
+  .irs-line
+    height: 6px
+    background: #d7d7d7
+    border-radius: 3px
+
+  .irs-slider
+    background: #e94c36
+    width: 21px
+    height: 21px
+    border-radius: 50%
+    cursor: pointer
+    top: -8px
+
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      width: 27px
+      height: 27px
+      left: -3px
+      top: -3px
+      background:rgba(#E94C36, .36)
+      border-radius: 50%
+
+  .irs-grid
+    top: 20px
+
+  .irs-grid-text
+    display: inline-block
+    font-size: 18px
+    line-height: 1
+    font-weight: 300

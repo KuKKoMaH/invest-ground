@@ -67,7 +67,7 @@
             <input placeholder="Ваше имя">
           </div>
           <div class="form__input">
-            <input placeholder="Ваш телефон">
+            <input placeholder="Ваш телефон" type="tel">
           </div>
           <div class="form__button">
                 <input class="button" type="submit" value="Оставить заявку">
@@ -99,6 +99,33 @@
               <li>Паспорт</li>
               <li>Свидетельство на квартиру</li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="calc">
+      <div class="w">
+        <div class="calc__block calc__block--left">
+          <div class="calc__title">РАССЧИТАЙТЕ ВАШ<br>ПЛАТЕЖ В МЕСЯЦ</div>
+          <div class="calc__slider">
+            <div class="calc__slider-value">Сумма кредита: <span id="summ"></span></div>
+            <input id="summ-slider" data-min="500000" data-max="10000000" data-from="5000000" data-step="100000">
+          </div>
+          <div class="calc__slider">
+            <div class="calc__slider-value">Срок кредита: <span id="time"></span></div>
+            <input id="time-slider" data-min="3" data-max="240" data-from="60">
+          </div>
+        </div>
+        <div class="calc__block calc__block--right">
+          <div class="calc__subsumm">Ваш кредит составит:</div>
+          <div class="calc__summ">
+            <div class="calc__number" id="total">105 300</div>
+            <div class="calc__permonth">рублей в месяц</div>
+          </div>
+          <div class="calc__note">Платжет аннуитетный – проценты начисляются на остаток задолженности, сумма долга уменьшается с каждым платежом</div>
+          <div class="calc__button">
+                <button class="button" type="submit">получить кредит
+                </button>
           </div>
         </div>
       </div>

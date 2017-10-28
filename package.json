@@ -50,6 +50,7 @@
     "fine-uploader": "^5.15.0",
     "imagemin-mozjpeg": "^6.0.0",
     "imagemin-pngquant": "^5.0.1",
+    "ion-rangeslider": "^2.2.0",
     "jquery": "^3.2.1",
     "jquery.maskedinput": "^1.4.1",
     "js-cookie": "^2.1.4",

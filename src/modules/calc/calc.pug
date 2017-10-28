@@ -1,0 +1,20 @@
+include ../button/button
+
+.calc
+  .w
+    .calc__block.calc__block--left
+      .calc__title РАССЧИТАЙТЕ ВАШ#[br]ПЛАТЕЖ В МЕСЯЦ
+      .calc__slider
+        .calc__slider-value Сумма кредита: #[span#summ]
+        input#summ-slider(data-min='500000' data-max='10000000' data-from='5000000' data-step='100000')
+      .calc__slider
+        .calc__slider-value Срок кредита: #[span#time]
+        input#time-slider(data-min='3' data-max='240' data-from='60')
+
+    .calc__block.calc__block--right
+      .calc__subsumm Ваш кредит составит:
+      .calc__summ
+        .calc__number#total 105 300
+        .calc__permonth рублей в месяц
+      .calc__note Платжет аннуитетный – проценты начисляются на остаток задолженности, сумма долга уменьшается с каждым платежом
+      .calc__button: +button() получить кредит

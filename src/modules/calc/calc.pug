@@ -14,7 +14,7 @@ include ../button/button
     .calc__block.calc__block--right
       .calc__subsumm Ваш кредит составит:
       .calc__summ
-        .calc__number#total 105 300
+        .calc__number#total &nbsp;
         .calc__permonth рублей в месяц
       .calc__note Платжет аннуитетный – проценты начисляются на остаток задолженности, сумма долга уменьшается с каждым платежом
-      .calc__button: +button() получить кредит
+      .calc__button: +button()(id='calc-button') получить кредит

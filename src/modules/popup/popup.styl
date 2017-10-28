@@ -1,0 +1,34 @@
+.popup
+  display: none
+
+  &__content
+    background: #C4CED5
+    max-width: 360px
+    margin: 0 auto
+    border-radius: 3px
+    position: relative
+
+    .mfp-close
+      top: 14px
+      right: 19px
+      opacity: .3
+      anim()
+
+      &:hover
+        opacity: .8
+
+  &__title
+    font-size: 15px
+    font-weight: bold
+    color: #7a8389
+    padding: 24px 24px 19px
+    border-bottom: 1px solid rgba(#97A2AA, .3)
+
+  &__body
+    padding: 37px 33px
+
+  &__input
+    margin-bottom: 22px
+
+  &__button
+    text-align: center

@@ -20,6 +20,9 @@
     padding-left: 136px
     padding-right: 136px
 
+    @media (max-width: $breakpoint-lg - 1)
+      padding-left: 10px
+      padding-right: 10px
     @media (max-width: $breakpoint-sm - 1)
       font-size: 21px
 
@@ -47,17 +50,6 @@
     @media (max-width: $breakpoint-sm - 1)
       width: auto
       margin-bottom: 15px
-
-    input
-      width: 100%
-      border: 0
-      margin: 0
-      padding: 0 19px
-      height: 73px
-      font-size: 16px
-      line-height: 1.2
-      outline: 0
-      border-radius: 5px
 
   &__button
     flex-basis: content

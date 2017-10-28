@@ -12,7 +12,7 @@
 
     @media (max-width: $breakpoint-sm - 1)
       flex-direction: column
-      padding: 22px 0 15px
+      padding: 22px 0 90px
 
   &__logo
     background: url(../../img/sprite-logo-white.svg)
@@ -62,5 +62,11 @@
     opacity: .8
     anim()
 
+    @media (max-width: $breakpoint-sm - 1)
+      top: auto
+      bottom: 8px
+      transform: translate(-50%, 0)
+
     &:hover
       opacity: 1
+

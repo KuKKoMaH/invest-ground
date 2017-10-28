@@ -1,0 +1,10 @@
+include ../input/input
+include ../button/button
+
+.popup
+  .popup__content#popup
+    .popup__title ЗАЯВКА НА КРЕДИТ
+    .popup__body
+      .popup__input: +input(placeholder='Ваше имя')
+      .popup__input: +input(placeholder='Ваш телефон' type='tel')
+      .popup__button: +button('input')(type='submit' value='Оставить заявку')
